@@ -1,110 +1,426 @@
 {
-  "name": "aaaaa",
-  "id": 1,
-  "width": 1920,
-  "height": 1080,
-  "frameRate": 29.9700012207031,
-  "frameDuration": 0.03336670003337,
-  "duration": 10800,
-  "dropFrame": true,
-  "motionBlur": true,
-  "draft3d": true,
-  "displayStartTime": 0,
-  "renderer": "ADBE Advanced 3d",
-  "layers": [{
-    "index": 1,
-    "name": "aaaaa",
-    "type": "TextLayerObject",
-    "source": null,
-    "isNameFromSource": false,
-    "height": 1080,
-    "width": 1920,
-    "collapseTransformation": null,
-    "transform": {
-      "ADBE Position": {
-        "name": "位置",
-        "value": [957.478454589844, 585.155457608402, 0]
-      }
-    },
-    "text": {
-      "ADBE Text Document": {
-        "name": "ソーステキスト",
-        "value": {
-          "text": "aaaaa",
-          "font": "TsukuARdGothic-Regular",
-          "fontFamily": "Tsukushi A Round Gothic",
-          "fontSize": 188,
-          "fillColor": [1, 1, 1],
-          "strokeColor": [1, 1, 1],
-          "strokeOverFill": true,
-          "strokeWidth": 0.00999999977648,
-          "justification": 7015,
-          "pointText": true
+    "name": "check",
+    "id": 1,
+    "width": 400,
+    "height": 400,
+    "frameRate": 60,
+    "frameDuration": 0.01666666666667,
+    "duration": 1,
+    "dropFrame": true,
+    "displayStartTime": 0,
+    "renderer": "ADBE Advanced 3d",
+    "layers": [
+        {
+            "index": 1,
+            "name": "調整レイヤー 1",
+            "type": "AVLayerObject",
+            "source": {
+                "name": "調整レイヤー 1",
+                "id": 19,
+                "width": 400,
+                "height": 400,
+                "frameRate": 0,
+                "duration": 0,
+                "mainSource": {
+                    "hasAlpha": false,
+                    "alphaMode": 5012,
+                    "isStill": true,
+                    "type": "SolidSourceObject",
+                    "color": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "height": 400,
+            "width": 400,
+            "motionBlur": true,
+            "adjustmentLayer": true,
+            "effects": {
+                "ADBE Fill": {
+                    "ADBE Fill-0002": {
+                        "name": "カラー",
+                        "value": [
+                            0.1176470592618,
+                            0.35686275362968,
+                            0.88627451658249,
+                            1
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "index": 2,
+            "name": "ヌル 1",
+            "nullLayer": true,
+            "type": "AVLayerObject",
+            "source": {
+                "name": "ヌル 1",
+                "id": 15,
+                "width": 100,
+                "height": 100,
+                "frameRate": 0,
+                "duration": 0,
+                "mainSource": {
+                    "hasAlpha": false,
+                    "alphaMode": 5012,
+                    "isStill": true,
+                    "type": "SolidSourceObject",
+                    "color": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            },
+            "height": 100,
+            "width": 100,
+            "motionBlur": true,
+            "transform": {
+                "ADBE Position": {
+                    "name": "位置",
+                    "value": [
+                        180,
+                        222,
+                        0
+                    ]
+                },
+                "ADBE Scale": {
+                    "name": "スケール",
+                    "keys": [
+                        {
+                            "time": 0,
+                            "in": [
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                }
+                            ],
+                            "out": [
+                                {
+                                    "influence": 17.6389521079899,
+                                    "speed": -22.9980112748171
+                                },
+                                {
+                                    "influence": 17.6389521079899,
+                                    "speed": -22.9980112748171
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": -25.7142857142857
+                                }
+                            ]
+                        },
+                        {
+                            "time": 0.58333333333333,
+                            "in": [
+                                {
+                                    "influence": 100,
+                                    "speed": -0.0000027512676
+                                },
+                                {
+                                    "influence": 100,
+                                    "speed": -0.0000027512676
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": -36
+                                }
+                            ],
+                            "out": [
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                },
+                                {
+                                    "influence": 16.666666667,
+                                    "speed": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "index": 3,
+            "name": "\rcheck",
+            "parent": 2,
+            "type": "ShapeLayerObject",
+            "source": null,
+            "isNameFromSource": false,
+            "height": 400,
+            "width": 400,
+            "motionBlur": true,
+            "collapseTransformation": null,
+            "transform": {
+                "ADBE Position": {
+                    "name": "位置",
+                    "value": [
+                        2,
+                        -20,
+                        0
+                    ]
+                }
+            },
+            "contents": {
+                "ADBE Vector Group": {
+                    "ADBE Vectors Group": {
+                        "ADBE Vector Shape - Group": {
+                            "ADBE Vector Shape": {
+                                "name": "パス",
+                                "value": {
+                                    "closed": false,
+                                    "vertices": [
+                                        [
+                                            -96,
+                                            12
+                                        ],
+                                        [
+                                            -26.0000152587891,
+                                            88
+                                        ],
+                                        [
+                                            162,
+                                            -122
+                                        ]
+                                    ],
+                                    "inTangents": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ],
+                                    "outTangents": [
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ],
+                                        [
+                                            0,
+                                            0
+                                        ]
+                                    ]
+                                }
+                            }
+                        },
+                        "ADBE Vector Graphic - Stroke": {
+                            "ADBE Vector Stroke Color": {
+                                "name": "カラー",
+                                "value": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            },
+                            "ADBE Vector Stroke Width": {
+                                "name": "線幅",
+                                "value": 30
+                            },
+                            "ADBE Vector Stroke Line Cap": {
+                                "name": "線端",
+                                "value": 2
+                            },
+                            "ADBE Vector Stroke Line Join": {
+                                "name": "線の結合",
+                                "value": 2
+                            }
+                        }
+                    }
+                },
+                "ADBE Vector Filter - Trim": {
+                    "ADBE Vector Trim End": {
+                        "name": "終了点",
+                        "keys": [
+                            {
+                                "time": 0.3,
+                                "in": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "influence": 0.01,
+                                        "speed": 37.3496055811616
+                                    }
+                                ]
+                            },
+                            {
+                                "time": 0.5,
+                                "in": [
+                                    {
+                                        "influence": 100,
+                                        "speed": -0.00000532060392
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "influence": 0.01,
+                                        "speed": 92.3496055811616
+                                    }
+                                ]
+                            },
+                            {
+                                "time": 0.9,
+                                "in": [
+                                    {
+                                        "influence": 100,
+                                        "speed": -0.00004837395738
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "index": 4,
+            "name": "\rcircle",
+            "parent": 2,
+            "type": "ShapeLayerObject",
+            "source": null,
+            "isNameFromSource": false,
+            "height": 400,
+            "width": 400,
+            "motionBlur": true,
+            "collapseTransformation": null,
+            "transform": {
+                "ADBE Position": {
+                    "name": "位置",
+                    "value": [
+                        0,
+                        -2,
+                        0
+                    ]
+                },
+                "ADBE Scale": {
+                    "name": "スケール",
+                    "value": [
+                        100,
+                        100,
+                        100
+                    ]
+                }
+            },
+            "contents": {
+                "ADBE Vector Group": {
+                    "ADBE Vectors Group": {
+                        "ADBE Vector Shape - Ellipse": {
+                            "ADBE Vector Ellipse Size": {
+                                "name": "サイズ",
+                                "value": [
+                                    316,
+                                    316
+                                ]
+                            }
+                        },
+                        "ADBE Vector Graphic - Stroke": {
+                            "ADBE Vector Stroke Color": {
+                                "name": "カラー",
+                                "value": [
+                                    0,
+                                    0,
+                                    0,
+                                    1
+                                ]
+                            },
+                            "ADBE Vector Stroke Width": {
+                                "name": "線幅",
+                                "value": 15
+                            },
+                            "ADBE Vector Stroke Line Cap": {
+                                "name": "線端",
+                                "value": 2
+                            },
+                            "ADBE Vector Stroke Line Join": {
+                                "name": "線の結合",
+                                "value": 2
+                            }
+                        }
+                    }
+                },
+                "ADBE Vector Filter - Trim": {
+                    "ADBE Vector Trim Start": {
+                        "name": "開始点",
+                        "value": 10
+                    },
+                    "ADBE Vector Trim End": {
+                        "name": "終了点",
+                        "keys": [
+                            {
+                                "time": 0,
+                                "in": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "influence": 0.01,
+                                        "speed": 0.00018630943032
+                                    }
+                                ]
+                            },
+                            {
+                                "time": 0.53333333333333,
+                                "in": [
+                                    {
+                                        "influence": 100,
+                                        "speed": -0.00000763684227
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "influence": 16.666666667,
+                                        "speed": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "ADBE Vector Trim Offset": {
+                        "name": "オフセット",
+                        "value": 34
+                    }
+                }
+            }
         }
-      }
-    }
-  }, {
-    "index": 2,
-    "name": "カメラ 1",
-    "type": "CameraLayerObject",
-    "source": null,
-    "autoOrient": 3814,
-    "transform": {
-      "ADBE Anchor Point": {
-        "name": "目標点",
-        "value": [977, 254, 149]
-      },
-      "ADBE Position": {
-        "name": "位置",
-        "value": [1150, 540, -833.33333331]
-      },
-      "ADBE Orientation": {
-        "name": "方向",
-        "value": [0, 174, 0]
-      },
-      "ADBE Rotate Y": {
-        "name": "Y 回転",
-        "value": 75
-      },
-      "ADBE Rotate Z": {
-        "name": "Z 回転",
-        "value": 505
-      }
-    },
-    "cameraOptions": {
-      "ADBE Camera Zoom": {
-        "name": "ズーム",
-        "value": 833.33333331
-      },
-      "ADBE Camera Focus Distance": {
-        "name": "フォーカス距離",
-        "value": 833.33333331
-      },
-      "ADBE Camera Aperture": {
-        "name": "絞り",
-        "value": 25.3093363329584
-      }
-    }
-  }, {
-    "index": 3,
-    "name": "fee",
-    "type": "AVLayerObject",
-    "source": {
-      "name": "fee",
-      "id": 13,
-      "width": 1920,
-      "height": 1080,
-      "frameRate": 0,
-      "duration": 0,
-      "mainSource": {
-        "hasAlpha": false,
-        "alphaMode": 5012,
-        "isStill": true,
-        "type": "SolidSourceObject",
-        "color": [0, 0, 0]
-      }
-    },
-    "height": 1080,
-    "width": 1920
-  }]
+    ]
 }
