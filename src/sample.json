@@ -1,0 +1,110 @@
+{
+  "name": "aaaaa",
+  "id": 1,
+  "width": 1920,
+  "height": 1080,
+  "frameRate": 29.9700012207031,
+  "frameDuration": 0.03336670003337,
+  "duration": 10800,
+  "dropFrame": true,
+  "motionBlur": true,
+  "draft3d": true,
+  "displayStartTime": 0,
+  "renderer": "ADBE Advanced 3d",
+  "layers": [{
+    "index": 1,
+    "name": "aaaaa",
+    "type": "TextLayerObject",
+    "source": null,
+    "isNameFromSource": false,
+    "height": 1080,
+    "width": 1920,
+    "collapseTransformation": null,
+    "transform": {
+      "ADBE Position": {
+        "name": "位置",
+        "value": [957.478454589844, 585.155457608402, 0]
+      }
+    },
+    "text": {
+      "ADBE Text Document": {
+        "name": "ソーステキスト",
+        "value": {
+          "text": "aaaaa",
+          "font": "TsukuARdGothic-Regular",
+          "fontFamily": "Tsukushi A Round Gothic",
+          "fontSize": 188,
+          "fillColor": [1, 1, 1],
+          "strokeColor": [1, 1, 1],
+          "strokeOverFill": true,
+          "strokeWidth": 0.00999999977648,
+          "justification": 7015,
+          "pointText": true
+        }
+      }
+    }
+  }, {
+    "index": 2,
+    "name": "カメラ 1",
+    "type": "CameraLayerObject",
+    "source": null,
+    "autoOrient": 3814,
+    "transform": {
+      "ADBE Anchor Point": {
+        "name": "目標点",
+        "value": [977, 254, 149]
+      },
+      "ADBE Position": {
+        "name": "位置",
+        "value": [1150, 540, -833.33333331]
+      },
+      "ADBE Orientation": {
+        "name": "方向",
+        "value": [0, 174, 0]
+      },
+      "ADBE Rotate Y": {
+        "name": "Y 回転",
+        "value": 75
+      },
+      "ADBE Rotate Z": {
+        "name": "Z 回転",
+        "value": 505
+      }
+    },
+    "cameraOptions": {
+      "ADBE Camera Zoom": {
+        "name": "ズーム",
+        "value": 833.33333331
+      },
+      "ADBE Camera Focus Distance": {
+        "name": "フォーカス距離",
+        "value": 833.33333331
+      },
+      "ADBE Camera Aperture": {
+        "name": "絞り",
+        "value": 25.3093363329584
+      }
+    }
+  }, {
+    "index": 3,
+    "name": "fee",
+    "type": "AVLayerObject",
+    "source": {
+      "name": "fee",
+      "id": 13,
+      "width": 1920,
+      "height": 1080,
+      "frameRate": 0,
+      "duration": 0,
+      "mainSource": {
+        "hasAlpha": false,
+        "alphaMode": 5012,
+        "isStill": true,
+        "type": "SolidSourceObject",
+        "color": [0, 0, 0]
+      }
+    },
+    "height": 1080,
+    "width": 1920
+  }]
+}
